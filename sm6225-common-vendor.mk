@@ -62,8 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6225-common/proprietary/vendor/bin/hw/android.hardware.security.keymint-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint-service-qti \
     vendor/xiaomi/sm6225-common/proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-qti \
     vendor/xiaomi/sm6225-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
-    vendor/xiaomi/sm6225-common/proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.hardware.dms@2.0-service \
-    vendor/xiaomi/sm6225-common/proprietary/vendor/bin/hw/vendor.dolby.media.c2@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.media.c2@1.0-service \
     vendor/xiaomi/sm6225-common/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/xiaomi/sm6225-common/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor/xiaomi/sm6225-common/proprietary/vendor/bin/hw/vendor.qti.hardware.display.composer-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.display.composer-service \
@@ -144,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6225-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile7.xml \
     vendor/xiaomi/sm6225-common/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
     vendor/xiaomi/sm6225-common/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
-    vendor/xiaomi/sm6225-common/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/xiaomi/sm6225-common/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/xiaomi/sm6225-common/proprietary/vendor/etc/init.qti.fm.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.qti.fm.sh \
     vendor/xiaomi/sm6225-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
@@ -171,8 +168,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6225-common/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/xiaomi/sm6225-common/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
     vendor/xiaomi/sm6225-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
-    vendor/xiaomi/sm6225-common/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
-    vendor/xiaomi/sm6225-common/proprietary/vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2@1.0-service.rc \
     vendor/xiaomi/sm6225-common/proprietary/vendor/etc/init/vendor.qsap.qapeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.qapeservice.rc \
     vendor/xiaomi/sm6225-common/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/xiaomi/sm6225-common/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
@@ -322,7 +317,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswgamedap.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/soundfx/libswvqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswvqe.so \
-    vendor/xiaomi/sm6225-common/proprietary/vendor/lib/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@2.0.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/vendor.qti.hardware.ListenSoundModel@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.ListenSoundModel@1.0-impl.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/vendor.qti.hardware.ListenSoundModel@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.ListenSoundModel@1.0.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dsp@1.0.so \
@@ -409,7 +403,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl_plugin.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libcodec2_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_ac4dec.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libcodec2_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_ddpdec.so \
-    vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libcodec2_store_dolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_store_dolby.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
@@ -616,8 +609,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.4.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.5.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
-    vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0-impl.so \
-    vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/vendor.libmwqemiptablemgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.libmwqemiptablemgr.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/xiaomi/sm6225-common/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
@@ -703,7 +694,6 @@ PRODUCT_PACKAGES += \
     manifest_non_qmaa \
     manifest_non_qmaa_extn \
     qms-saidl \
-    vendor.dolby.hardware.dms \
     vendor.qti.hardware.lights.service \
     vendor.qti.hardware.limits-service \
     vendor.qti.hardware.perf \
